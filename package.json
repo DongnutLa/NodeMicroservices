@@ -1,0 +1,27 @@
+{
+  "name": "microserviciosnode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon api/index.js",
+    "mysql": "nodemon mysql/index.js",
+    "post": "nodemon post/index.js",
+    "cache": "nodemon cache/index.js"
+  },
+  "keywords": [],
+  "author": "DongnutLa <luahernandezdu@unal.edu.co>",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.3.3",
+    "nanoid": "^3.3.1",
+    "nodemon": "^2.0.15",
+    "redis": "^2.8.0",
+    "request": "^2.88.2",
+    "swagger-ui-express": "^4.3.0"
+  }
+}
